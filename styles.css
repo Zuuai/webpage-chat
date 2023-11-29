@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
   width: 100%;
   height: 100%;
   font-family: 'Open Sans', sans-serif;
@@ -121,13 +122,23 @@ a {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeOut {
-  from { opacity: 1; }
-  to { opacity: 0; }
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
 }
 
 
@@ -144,6 +155,7 @@ a {
     transform: translateX(-50%) scale(0.2);
     opacity: 1;
   }
+
   100% {
     transform: translateX(-50%) scale(1);
     opacity: 0;
